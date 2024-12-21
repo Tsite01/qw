@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>10 способов ускорить загрузку сайта</title>
+</head>
+<body>
+    <div class="progress-container">
+        <div class="progress-bar"></div>
+    </div>
+
+    <section class="hero">
+        <h1>Как ускорить загрузку сайта</h1>
+        <p class="subtitle">Комплексное руководство по оптимизации производительности вашего веб-сайта</p>
+    </section>
+
+    <main>
+        <div class="container">
+            <article class="method animate-on-scroll">
+                <h2>1. Оптимизация изображений</h2>
+                <div class="method-content">
+                    <div class="method-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500" alt="Оптимизация изображений">
+                    </div>
+                    <div class="method-text">
+                        <p>Оптимизация изображений является crucial аспектом улучшения производительности сайта. Вот ключевые методы:</p>
+                        <ul>
+                            <li>Используйте современные форматы изображений (WebP, AVIF)</li>
+                            <li>Внедрите адаптивные изображения с помощью srcset и sizes</li>
+                            <li>Применяйте lazy loading для отложенной загрузки</li>
+                            <li>Оптимизируйте размер и качество без видимой потери качества</li>
+                        </ul>
+                        <p>Правильная оптимизация изображений может сократить их вес на 50-80% без заметной потери качества.</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="method animate-on-scroll">
+                <h2>2. Минификация кода</h2>
+                <div class="method-content">
+                    <div class="method-text">
+                        <p>Минификация кода - это процесс уменьшения размера файлов путем удаления ненужных символов. Основные принципы:</p>
+                        <ul>
+                            <li>Удаление пробелов, переносов строк и комментариев</li>
+                            <li>Сокращение имен переменных и функций</li>
+                            <li>Объединение файлов для уменьшения HTTP-запросов</li>
+                            <li>Использование инструментов автоматической минификации</li>
+                        </ul>
+                    </div>
+                    <div class="method-image">
+                        <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=500" alt="Минификация кода">
+                    </div>
+                </div>
+            </article>
+
+            <article class="method animate-on-scroll">
+                <h2>3. Использование кэширования</h2>
+                <div class="method-content">
+                    <div class="method-image">
+                        <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=500" alt="Кэширование">
+                    </div>
+                    <div class="method-text">
+                        <p>Правильная настройка кэширования значительно улучшает скорость загрузки для повторных посетителей:</p>
+                        <ul>
+                            <li>Настройка заголовков кэширования (Cache-Control, ETag)</li>
+                            <li>Использование CDN для распределения контента</li>
+                            <li>Реализация серверного кэширования</li>
+                            <li>Оптимизация кэширования браузера</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+
+            <article class="method animate-on-scroll">
+                <h2>4. Оптимизация JavaScript</h2>
+                <div class="method-content">
+                    <div class="method-text">
+                        <p>JavaScript может существенно влиять на производительность сайта. Вот ключевые методы оптимизации:</p>
+                        <ul>
+                            <li>Асинхронная загрузка скриптов (async/defer)</li>
+                            <li>Разделение кода на чанки (code splitting)</li>
+                            <li>Удаление неиспользуемого кода (tree shaking)</li>
+                            <li>Оптимизация работы с DOM</li>
+                            <li>Использование Web Workers для тяжелых вычислений</li>
+                        </ul>
+                        <p>Правильная оптимизация JavaScript может значительно ускорить время загрузки и время до интерактивности (TTI).</p>
+                    </div>
+                    <div class="method-image">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=500" alt="Оптимизация JavaScript">
+                    </div>
+                </div>
+            </article>
+
+            <article class="method animate-on-scroll">
+                <h2>5. Оптимизация CSS</h2>
+                <div class="method-content">
+                    <div class="method-image">
+                        <img src="https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?w=500" alt="Оптимизация CSS">
+                    </div>
+                    <div class="method-text">
+                        <p>Оптимизация CSS критически важна для быстрой отрисовки страницы:</p>
+                        <ul>
+                            <li>Выделение критического CSS</li>
+                            <li>Минификация и сжатие CSS файлов</li>
+                            <li>Использование CSS-спрайтов</li>
+                            <li>Оптимизация селекторов</li>
+                            <li>Удаление неиспользуемых стилей</li>
+                        </ul>
+                        <p>Эффективная оптимизация CSS может значительно ускорить First Paint и First Contentful Paint.</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="method animate-on-scroll">
+                <h2>6. Оптимизация серверной части</h2>
+                <div class="method-content">
+                    <div class="method-text">
+                        <p>Оптимизация сервера играет ключевую роль в производительности:</p>
+                        <ul>
+                            <li>Использование HTTP/2 или HTTP/3</li>
+                            <li>Настройка GZIP/Brotli сжатия</li>
+                            <li>Оптимизация баз данных</li>
+                            <li>Кэширование на уровне сервера</li>
+                            <li>Балансировка нагрузки</li>
+                        </ul>
+                        <p>Правильная настройка сервера может значительно уменьшить Time to First Byte (TTFB).</p>
+                    </div>
+                    <div class="method-image">
+                        <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=500" alt="Оптимизация сервера">
+                    </div>
+                </div>
+            </article>
+
+            <article class="method animate-on-scroll">
+                <h2>7. Использование CDN</h2>
+                <div class="method-content">
+                    <div class="method-image">
+                        <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=500" alt="CDN">
+                    </div>
+                    <div class="method-text">
+                        <p>Content Delivery Network (CDN) существенно улучшает скорость доставки контента:</p>
+                        <ul>
+                            <li>Географическое распределение серверов</li>
+                            <li>Автоматическая оптимизация ресурсов</li>
+                            <li>Защита от DDoS-атак</li>
+                            <li>Умное кэширование</li>
+                            <li>Оптимизация маршрутизации</li>
+                        </ul>
+                        <p>Использование CDN особенно важно для сайтов с глобальной аудиторией.</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="method animate-on-scroll">
+                <h2>8. Оптимизация шрифтов</h2>
+                <div class="method-content">
+                    <div class="method-text">
+                        <p>Веб-шрифты могут существенно замедлить загрузку страницы:</p>
+                        <ul>
+                            <li>Использование WOFF2 формата</li>
+                            <li>Подключение только необходимых начертаний</li>
+                            <li>Предзагрузка критических шрифтов</li>
+                            <li>Использование font-display: swap</li>
+                            <li>Оптимизация подмножеств шрифтов</li>
+                        </ul>
+                        <p>Правильная стратегия загрузки шрифтов помогает избежать FOUT и FOIT.</p>
+                    </div>
+                    <div class="method-image">
+                        <img src="https://images.unsplash.com/photo-1518773553398-650c184e0bb3?w=500" alt="Оптимизация шрифтов">
+                    </div>
+                </div>
+            </article>
+
+            <article class="method animate-on-scroll">
+                <h2>9. Предварительная загрузка ресурсов</h2>
+                <div class="method-content">
+                    <div class="method-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500" alt="Предзагрузка">
+                    </div>
+                    <div class="method-text">
+                        <p>Умная предзагрузка ресурсов улучшает пользовательский опыт:</p>
+                        <ul>
+                            <li>Использование rel="preload" для критических ресурсов</li>
+                            <li>Применение rel="prefetch" для будущих переходов</li>
+                            <li>DNS-prefetch для внешних доменов</li>
+                            <li>Preconnect для важных соединений</li>
+                            <li>Приоритизация загрузки ресурсов</li>
+                        </ul>
+                        <p>Правильная стратегия предзагрузки может значительно ускорить взаимодействие с сайтом.</p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="method animate-on-scroll">
+                <h2>10. Мониторинг и оптимизация метрик</h2>
+                <div class="method-content">
+                    <div class="method-text">
+                        <p>Постоянный мониторинг производительности критически важен:</p>
+                        <ul>
+                            <li>Отслеживание Core Web Vitals</li>
+                            <li>Анализ пользовательских метрик</li>
+                            <li>Мониторинг серверных метрик</li>
+                            <li>A/B тестирование оптимизаций</li>
+                            <li>Регулярный аудит производительности</li>
+                        </ul>
+                        <p>Регулярный мониторинг помогает выявлять проблемы производительности на ранних этапах.</p>
+                    </div>
+                    <div class="method-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500" alt="Мониторинг">
+                    </div>
+                </div>
+            </article>
+
+            <section class="tips">
+                <div class="container">
+                    <h2>Дополнительные советы по оптимизации</h2>
+                    <div class="tips-grid">
+                        <div class="tip-card animate-on-scroll">
+                            <h3>Мониторинг производительности</h3>
+                            <p>Регулярно проверяйте метрики производительности с помощью инструментов Google PageSpeed Insights и WebPageTest.</p>
+                        </div>
+                        <div class="tip-card animate-on-scroll">
+                            <h3>Оптимизация шрифтов</h3>
+                            <p>Используйте форматы WOFF2, подключайте только необходимые начертания, применяйте font-display: swap.</p>
+                        </div>
+                        <div class="tip-card animate-on-scroll">
+                            <h3>Предзагрузка ресурсов</h3>
+                            <p>Используйте rel="preload" для критически важных ресурсов и rel="prefetch" для будущих переходов.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 Оптимизация скорости загрузки</p>
+            <p>Следите за нашими обновлениями для получения новых советов по оптимизации</p>
+        </div>
+    </footer>
+
+    <script type="module">
+        import { initAnimations, initSmoothScroll, initProgressBar } from './src/js/animations.js';
+        
+        document.addEventListener('DOMContentLoaded', () => {
+            initAnimations();
+            initSmoothScroll();
+            initProgressBar();
+        });
+    </script>
+</body>
+</html>
